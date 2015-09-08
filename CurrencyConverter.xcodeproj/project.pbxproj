@@ -21,6 +21,7 @@
 		7164986118CE65F900F4C430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7164984318CE65F900F4C430 /* UIKit.framework */; };
 		7164986918CE65F900F4C430 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7164986718CE65F900F4C430 /* InfoPlist.strings */; };
 		7164986B18CE65F900F4C430 /* CurrencyConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164986A18CE65F900F4C430 /* CurrencyConverterTests.m */; };
+		71E8DCC018CE92B40032A20E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E8DCBF18CE92B40032A20E /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7164986618CE65F900F4C430 /* CurrencyConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverterTests-Info.plist"; sourceTree = "<group>"; };
 		7164986818CE65F900F4C430 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7164986A18CE65F900F4C430 /* CurrencyConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterTests.m; sourceTree = "<group>"; };
+		71E8DCBF18CE92B40032A20E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		7164983318CE65F900F4C430 = {
 			isa = PBXGroup;
 			children = (
+				71E8DCC118CE92BC0032A20E /* Resources */,
 				7164984518CE65F900F4C430 /* CurrencyConverter */,
 				7164986418CE65F900F4C430 /* CurrencyConverterTests */,
 				7164983E18CE65F900F4C430 /* Frameworks */,
@@ -150,6 +153,14 @@
 				7164986718CE65F900F4C430 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E8DCC118CE92BC0032A20E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71E8DCBF18CE92B40032A20E /* button.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7164985818CE65F900F4C430 /* Images.xcassets in Resources */,
+				71E8DCC018CE92B40032A20E /* button.png in Resources */,
 				7164984A18CE65F900F4C430 /* InfoPlist.strings in Resources */,
 				7164985318CE65F900F4C430 /* Main.storyboard in Resources */,
 			);
@@ -460,6 +472,7 @@
 				7164987018CE65F900F4C430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7164987118CE65F900F4C430 /* Build configuration list for PBXNativeTarget "CurrencyConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				7164987318CE65F900F4C430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
